@@ -97,7 +97,7 @@ const solutions = [
         description: "치과 병원 맞춤형 광고 콘텐츠 자동 생성 플랫폼. SNS, 블로그, 동영상 콘텐츠를 손쉽게 제작합니다.",
         tags: ["AI", "치과", "광고", "마케팅"],
         status: "active",
-        link: "#"
+        link: "https://jaiwshim-project.github.io/dental_ad/index.html"
     },
     {
         id: 9,
