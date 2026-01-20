@@ -608,6 +608,8 @@ body {
 .card-body {
     padding: 28px 30px;
     background: rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 2;
 }
 
 .card-description {
@@ -649,6 +651,8 @@ body {
     align-items: center;
     background: rgba(0, 0, 0, 0.3);
     border-top: 1px solid rgba(255, 255, 255, 0.05);
+    position: relative;
+    z-index: 2;
 }
 
 .card-status {
