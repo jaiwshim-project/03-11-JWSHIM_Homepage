@@ -230,6 +230,17 @@ const solutions = [
         tags: ["치과", "설문조사", "원장", "병원경영"],
         status: "active",
         link: "https://jaiwshim-project.github.io/dental_survey/"
+    },
+    {
+        id: 22,
+        title: "리젠메드컨설팅",
+        category: "healthcare",
+        categoryLabel: "헬스케어",
+        icon: "🩺",
+        description: "리젠메드 의료 컨설팅 서비스. 의료 기관 운영 및 경영 컨설팅을 제공합니다.",
+        tags: ["의료", "컨설팅", "병원경영", "헬스케어"],
+        status: "active",
+        link: "https://jaiwshim-project.github.io/mediconsulting/"
     }
 ];
 
