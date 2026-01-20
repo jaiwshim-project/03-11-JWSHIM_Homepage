@@ -470,3 +470,49 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         }
     });
 });
+
+// ============================================
+// 맨 위로 버튼
+// ============================================
+const backToTopBtn = document.getElementById('backToTop');
+
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 500) {
+        backToTopBtn.classList.add('visible');
+    } else {
+        backToTopBtn.classList.remove('visible');
+    }
+});
+
+backToTopBtn.addEventListener('click', (e) => {
+    e.preventDefault();
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+});
+
+// ============================================
+// 푸터 링크 클릭 이벤트
+// ============================================
+document.querySelectorAll('.footer-link').forEach(link => {
+    link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const category = link.getAttribute('data-category');
+
+        // 해당 카테고리 버튼 클릭
+        const navBtn = document.querySelector(`.nav-btn[data-category="${category}"]`);
+        if (navBtn) {
+            filterButtons.forEach(b => b.classList.remove('active'));
+            navBtn.classList.add('active');
+            currentFilter = category;
+            filterSolutions();
+
+            // 솔루션 섹션으로 스크롤
+            document.getElementById('solutions').scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
+        }
+    });
+});
