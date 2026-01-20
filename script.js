@@ -516,3 +516,51 @@ document.querySelectorAll('.footer-link').forEach(link => {
         }
     });
 });
+
+// ============================================
+// GitHub 비밀번호 보호
+// ============================================
+const passwordModal = document.getElementById('passwordModal');
+const passwordInput = document.getElementById('passwordInput');
+const passwordSubmit = document.getElementById('passwordSubmit');
+const passwordCancel = document.getElementById('passwordCancel');
+const passwordError = document.getElementById('passwordError');
+const githubLink = document.querySelector('.footer-contact-item[href*="github"]');
+
+const GITHUB_PASSWORD = '963314';
+const GITHUB_URL = 'https://github.com/jaiwshim-project';
+
+if (githubLink) {
+    githubLink.addEventListener('click', (e) => {
+        e.preventDefault();
+        passwordModal.classList.add('active');
+        passwordInput.value = '';
+        passwordError.classList.remove('show');
+        setTimeout(() => passwordInput.focus(), 100);
+    });
+}
+
+passwordSubmit.addEventListener('click', checkPassword);
+passwordInput.addEventListener('keypress', (e) => {
+    if (e.key === 'Enter') checkPassword();
+});
+
+function checkPassword() {
+    if (passwordInput.value === GITHUB_PASSWORD) {
+        passwordModal.classList.remove('active');
+        window.open(GITHUB_URL, '_blank');
+    } else {
+        passwordError.classList.add('show');
+        passwordInput.value = '';
+        passwordInput.focus();
+        setTimeout(() => passwordError.classList.remove('show'), 2000);
+    }
+}
+
+passwordCancel.addEventListener('click', () => {
+    passwordModal.classList.remove('active');
+});
+
+document.querySelector('.password-modal-overlay').addEventListener('click', () => {
+    passwordModal.classList.remove('active');
+});

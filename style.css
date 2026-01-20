@@ -1224,3 +1224,164 @@ body {
     background: rgba(139, 92, 246, 0.4);
     color: #fff;
 }
+
+/* ============================================
+   비밀번호 모달
+   ============================================ */
+.password-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+
+.password-modal.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.password-modal-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+}
+
+.password-modal-content {
+    position: relative;
+    background: linear-gradient(145deg, rgba(30, 20, 50, 0.95) 0%, rgba(10, 5, 20, 0.98) 100%);
+    border: 2px solid rgba(139, 92, 246, 0.4);
+    border-radius: 24px;
+    padding: 40px;
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+    box-shadow: 0 25px 80px rgba(139, 92, 246, 0.3),
+                0 0 60px rgba(139, 92, 246, 0.1);
+    transform: scale(0.9) translateY(20px);
+    transition: transform 0.3s ease;
+}
+
+.password-modal.active .password-modal-content {
+    transform: scale(1) translateY(0);
+}
+
+.password-modal-header {
+    margin-bottom: 30px;
+}
+
+.password-icon {
+    font-size: 3rem;
+    display: block;
+    margin-bottom: 15px;
+    animation: float 3s ease-in-out infinite;
+}
+
+.password-modal-header h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+.password-modal-header p {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.95rem;
+}
+
+.password-input-wrapper {
+    margin-bottom: 25px;
+}
+
+.password-input-wrapper input {
+    width: 100%;
+    padding: 18px 24px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 2px solid rgba(139, 92, 246, 0.3);
+    border-radius: 16px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 12px;
+    transition: all 0.3s ease;
+}
+
+.password-input-wrapper input::placeholder {
+    color: rgba(255, 255, 255, 0.3);
+    letter-spacing: 8px;
+}
+
+.password-input-wrapper input:focus {
+    outline: none;
+    border-color: rgba(139, 92, 246, 0.6);
+    box-shadow: 0 0 30px rgba(139, 92, 246, 0.2);
+}
+
+.password-modal-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.password-btn {
+    flex: 1;
+    padding: 14px 24px;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: none;
+}
+
+.password-btn.cancel {
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.password-btn.cancel:hover {
+    background: rgba(255, 255, 255, 0.15);
+    color: #fff;
+}
+
+.password-btn.submit {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #fff;
+    box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+}
+
+.password-btn.submit:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 15px 40px rgba(102, 126, 234, 0.4);
+}
+
+.password-error {
+    color: #ef4444;
+    font-size: 0.9rem;
+    margin-top: 20px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.password-error.show {
+    opacity: 1;
+    animation: shake 0.5s ease;
+}
+
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    20%, 60% { transform: translateX(-10px); }
+    40%, 80% { transform: translateX(10px); }
+}
