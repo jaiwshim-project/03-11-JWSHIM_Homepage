@@ -35,14 +35,14 @@ const solutions = [
     },
     {
         id: 3,
-        title: "AUTOBOOK STUDIO",
+        title: "AUTOBOOK AI STUDIO",
         category: "creative",
         categoryLabel: "크리에이티브",
         icon: "📖",
         description: "AI를 활용한 자동 도서 제작 스튜디오. 콘텐츠 생성부터 편집, 디자인까지 원스톱 북 제작 플랫폼입니다.",
         tags: ["AI", "출판", "자동화", "콘텐츠"],
         status: "active",
-        link: "#"
+        link: "https://jaiwshim-project.github.io/autobook-ai-studio/"
     },
     {
         id: 4,
