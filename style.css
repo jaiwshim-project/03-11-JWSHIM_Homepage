@@ -1132,74 +1132,414 @@ body {
     }
 
     .solutions-grid {
-        grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 20px;
     }
 }
 
 @media (max-width: 768px) {
+    /* 히어로 섹션 컴팩트 */
+    .hero {
+        min-height: auto;
+        padding: 60px 15px 40px;
+    }
+
+    .hero-badge {
+        padding: 8px 16px;
+        font-size: 0.7rem;
+        margin-bottom: 15px;
+        letter-spacing: 1px;
+    }
+
     .hero-title {
-        font-size: clamp(2.5rem, 10vw, 4rem);
+        font-size: clamp(1.8rem, 8vw, 2.5rem);
+        margin-bottom: 15px;
+        letter-spacing: -1px;
+    }
+
+    .hero-description {
+        font-size: 0.9rem;
+        margin-bottom: 25px;
+        line-height: 1.6;
+    }
+
+    .hero-description br {
+        display: none;
     }
 
     .hero-stats {
-        flex-direction: column;
-        gap: 20px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        margin-bottom: 25px;
+    }
+
+    .hero-stat {
+        min-width: 80px;
+    }
+
+    .hero-stat-number {
+        font-size: 1.8rem;
+    }
+
+    .hero-stat-suffix {
+        font-size: 1.2rem;
+    }
+
+    .hero-stat-label {
+        font-size: 0.65rem;
+        letter-spacing: 1px;
+        margin-top: 4px;
     }
 
     .hero-stat-divider {
-        width: 60px;
-        height: 1px;
+        display: none;
+    }
+
+    .hero-cta {
+        padding: 12px 24px;
+        font-size: 0.9rem;
+        gap: 8px;
+    }
+
+    .scroll-indicator {
+        display: none;
+    }
+
+    /* 네비게이션 컴팩트 */
+    .category-nav {
+        padding: 10px 0;
     }
 
     .nav-container {
-        gap: 10px;
+        gap: 6px;
+        padding: 0 10px;
     }
 
     .nav-btn {
-        padding: 12px 20px;
-        font-size: 0.85rem;
+        padding: 8px 12px;
+        font-size: 0.75rem;
+        border-radius: 10px;
+        gap: 5px;
+    }
+
+    .nav-icon {
+        font-size: 1rem;
     }
 
     .nav-text {
         display: none;
     }
 
-    .solutions-grid {
-        grid-template-columns: 1fr;
+    .nav-count {
+        padding: 2px 6px;
+        font-size: 0.7rem;
+    }
+
+    /* 검색 컴팩트 */
+    .search-section {
+        margin: 20px auto;
+        padding: 0 15px;
+    }
+
+    .search-input {
+        padding: 12px 15px 12px 45px;
+        font-size: 0.9rem;
+        border-radius: 12px;
+    }
+
+    .search-icon {
+        left: 15px;
+        width: 18px;
+        height: 18px;
+    }
+
+    /* 메인 컴팩트 */
+    .main {
+        padding: 15px 15px 40px;
+    }
+
+    /* 카테고리 그룹 컴팩트 */
+    .category-group {
+        margin-bottom: 40px;
     }
 
     .category-header {
-        flex-wrap: wrap;
+        gap: 10px;
+        margin-bottom: 20px;
+        padding-bottom: 12px;
+        flex-wrap: nowrap;
+    }
+
+    .category-icon {
+        font-size: 1.8rem;
+    }
+
+    .category-title {
+        font-size: 1.2rem;
     }
 
     .category-count {
-        margin-left: 0;
-        margin-top: 10px;
+        padding: 6px 12px;
+        font-size: 0.75rem;
+        margin-left: auto;
+        margin-top: 0;
+    }
+
+    /* 카드 그리드 컴팩트 */
+    .solutions-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    /* 카드 컴팩트 */
+    .solution-card {
+        border-radius: 16px;
+    }
+
+    .card-header {
+        padding: 20px 15px;
+    }
+
+    .card-icon {
+        font-size: 2.2rem;
+        margin-bottom: 10px;
+    }
+
+    .card-title {
+        font-size: 1.1rem;
+        margin-bottom: 6px;
+    }
+
+    .card-category {
+        padding: 4px 10px;
+        font-size: 0.6rem;
+    }
+
+    .card-body {
+        padding: 15px;
+    }
+
+    .card-description {
+        font-size: 0.85rem;
+        line-height: 1.5;
+        margin-bottom: 12px;
+    }
+
+    .card-tags {
+        gap: 5px;
+    }
+
+    .tag {
+        padding: 5px 10px;
+        font-size: 0.7rem;
+    }
+
+    .card-footer {
+        padding: 12px 15px;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .card-status {
+        font-size: 0.75rem;
+        gap: 6px;
+    }
+
+    .status-dot {
+        width: 8px;
+        height: 8px;
+    }
+
+    .card-link {
+        padding: 8px 16px;
+        font-size: 0.8rem;
+        gap: 5px;
+    }
+
+    /* 푸터 컴팩트 */
+    .footer {
+        margin-top: 40px;
+    }
+
+    .footer-wave {
+        top: -30px;
+        height: 60px;
+    }
+
+    .footer-container {
+        padding: 40px 15px 25px;
+    }
+
+    .footer-top {
+        gap: 25px;
+        margin-bottom: 25px;
+    }
+
+    .footer-logo {
+        margin-bottom: 12px;
+    }
+
+    .logo-icon {
+        font-size: 1.8rem;
+    }
+
+    .logo-text {
+        font-size: 1.3rem;
+    }
+
+    .footer-tagline {
+        font-size: 0.85rem;
+        margin-bottom: 15px;
+        line-height: 1.6;
+    }
+
+    .footer-tech-stack {
+        gap: 6px;
+    }
+
+    .tech-badge {
+        padding: 5px 10px;
+        font-size: 0.7rem;
+    }
+
+    .footer-links-title {
+        font-size: 0.85rem;
+        margin-bottom: 15px;
+    }
+
+    .footer-link {
+        font-size: 0.85rem;
+        padding: 8px 0;
+    }
+
+    .footer-link .link-icon {
+        font-size: 0.95rem;
+    }
+
+    .footer-stat-item {
+        padding: 8px 0;
+        gap: 10px;
+    }
+
+    .footer-stat-num {
+        font-size: 1.2rem;
+        min-width: 50px;
+    }
+
+    .footer-stat-text {
+        font-size: 0.8rem;
+    }
+
+    .footer-contact-item {
+        font-size: 0.85rem;
+        padding: 8px 0;
+        gap: 8px;
+    }
+
+    .footer-contact-item svg {
+        width: 16px;
+        height: 16px;
+    }
+
+    .footer-divider {
+        margin-bottom: 20px;
+    }
+
+    .footer-bottom {
+        gap: 10px;
+    }
+
+    .footer-copyright {
+        font-size: 0.75rem;
+    }
+
+    .footer-powered {
+        gap: 5px;
+    }
+
+    .powered-text, .powered-gradient {
+        font-size: 0.75rem;
+    }
+
+    .back-to-top {
+        bottom: 15px;
+        right: 15px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .back-to-top svg {
+        width: 18px;
+        height: 18px;
     }
 }
 
 @media (max-width: 480px) {
-    .hero-badge {
-        font-size: 0.75rem;
-        padding: 10px 20px;
+    .hero {
+        padding: 40px 12px 30px;
     }
 
-    .hero-description {
+    .hero-title {
+        font-size: clamp(1.5rem, 7vw, 2rem);
+    }
+
+    .hero-stats {
+        gap: 10px;
+    }
+
+    .hero-stat {
+        min-width: 70px;
+    }
+
+    .hero-stat-number {
+        font-size: 1.5rem;
+    }
+
+    .hero-stat-label {
+        font-size: 0.6rem;
+    }
+
+    .hero-cta {
+        padding: 10px 20px;
+        font-size: 0.85rem;
+    }
+
+    .nav-btn {
+        padding: 6px 10px;
+    }
+
+    .category-icon {
+        font-size: 1.5rem;
+    }
+
+    .category-title {
         font-size: 1rem;
     }
 
     .card-header {
-        padding: 25px 20px;
+        padding: 15px 12px;
+    }
+
+    .card-icon {
+        font-size: 2rem;
+    }
+
+    .card-title {
+        font-size: 1rem;
     }
 
     .card-body {
-        padding: 20px;
+        padding: 12px;
+    }
+
+    .card-description {
+        font-size: 0.8rem;
     }
 
     .card-footer {
-        flex-direction: column;
-        gap: 15px;
-        padding: 15px 20px;
+        padding: 10px 12px;
     }
 }
 
