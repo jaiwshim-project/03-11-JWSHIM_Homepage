@@ -219,6 +219,17 @@ const solutions = [
         tags: ["치과", "미소", "케어", "서비스"],
         status: "active",
         link: "https://jaiwshim-project.github.io/misomi/index.html"
+    },
+    {
+        id: 21,
+        title: "치과 환자 설문조사",
+        category: "healthcare",
+        categoryLabel: "헬스케어",
+        icon: "📝",
+        description: "치과 환자 만족도 및 피드백 수집을 위한 설문조사 솔루션. 환자 경험 개선에 활용됩니다.",
+        tags: ["치과", "설문조사", "피드백", "환자경험"],
+        status: "active",
+        link: "https://jaiwshim-project.github.io/dental_survey/"
     }
 ];
 
