@@ -1,2 +1,4 @@
 AISolutions/
 .claude/
+.vercel
+.env*.local
