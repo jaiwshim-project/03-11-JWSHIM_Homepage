@@ -340,6 +340,17 @@ const solutions = [
         tags: ["치과위생사", "조직진단", "AI", "협회"],
         status: "active",
         link: "https://jaiwshim-project.github.io/25-Dental-Diagnosis/"
+    },
+    {
+        id: 32,
+        title: "M&A 매수매각 플랫폼",
+        category: "business",
+        categoryLabel: "비즈니스",
+        icon: "🤝",
+        description: "병원·기업 M&A 전문 플랫폼. 매각·매수·양도·양수 거래를 통합 관리하며, 가치평가·실사·전문가 매칭 등 안전한 중개 서비스를 제공합니다.",
+        tags: ["M&A", "매수매각", "병원", "기업거래"],
+        status: "active",
+        link: "https://jaiwshim-project.github.io/33-M-A_BuySell/"
     }
 ];
 
