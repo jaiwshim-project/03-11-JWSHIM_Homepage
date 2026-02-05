@@ -296,6 +296,50 @@ const solutions = [
         tags: ["AI", "치과", "프랜차이즈", "헬스케어"],
         status: "active",
         link: "https://jaiwshim-project.github.io/15-dental_franchise/"
+    },
+    {
+        id: 28,
+        title: "스타트업 파인더",
+        category: "business",
+        categoryLabel: "비즈니스",
+        icon: "🚀",
+        description: "스타트업 검색 및 랭킹 플랫폼. 유망 스타트업을 발굴하고 분석하여 투자 및 협업 기회를 제공합니다.",
+        tags: ["스타트업", "랭킹", "투자", "분석"],
+        status: "active",
+        link: "https://jaiwshim-project.github.io/32-StartupFinder/#ranking"
+    },
+    {
+        id: 29,
+        title: "어머니의 손맛 레시피",
+        category: "creative",
+        categoryLabel: "크리에이티브",
+        icon: "🍳",
+        description: "AI 기반 요리 레시피 플랫폼. 어머니의 손맛을 담은 다양한 레시피를 AI가 추천하고 안내합니다.",
+        tags: ["요리", "레시피", "AI", "음식"],
+        status: "active",
+        link: "https://jaiwshim-project.github.io/41-Mother-Cooks-Recipe/"
+    },
+    {
+        id: 30,
+        title: "치과 방문 케어",
+        category: "healthcare",
+        categoryLabel: "헬스케어",
+        icon: "🦷",
+        description: "치과 방문 관리 및 케어 로드맵 솔루션. 환자의 치과 방문 일정과 치료 계획을 체계적으로 관리합니다.",
+        tags: ["치과", "방문케어", "로드맵", "환자관리"],
+        status: "active",
+        link: "https://jaiwshim-project.github.io/27-Dental-Visit-Care/roadmap.html"
+    },
+    {
+        id: 31,
+        title: "치과위생사협회 조직진단 AI",
+        category: "healthcare",
+        categoryLabel: "헬스케어",
+        icon: "🔍",
+        description: "치과위생사협회를 위한 AI 기반 조직진단 솔루션. 조직 현황을 분석하고 발전 방향을 제시합니다.",
+        tags: ["치과위생사", "조직진단", "AI", "협회"],
+        status: "active",
+        link: "https://jaiwshim-project.github.io/25-Dental-Diagnosis/"
     }
 ];
 
