@@ -351,6 +351,17 @@ const solutions = [
         tags: ["M&A", "매수매각", "병원", "기업거래"],
         status: "active",
         link: "https://jaiwshim-project.github.io/33-M-A_BuySell/"
+    },
+    {
+        id: 33,
+        title: "Ultimate UI Showcase",
+        category: "creative",
+        categoryLabel: "크리에이티브",
+        icon: "🎨",
+        description: "프리미엄 UI 라이브러리 허브. CSS 라이브러리, 아이콘셋, 디자인 시스템, 웹폰트, 마이크로 인터랙션, 데이터 시각화 등 웹 개발 리소스를 큐레이션합니다.",
+        tags: ["UI", "라이브러리", "디자인", "웹개발"],
+        status: "active",
+        link: "https://jaiwshim-project.github.io/03-2-Util_Showcase/"
     }
 ];
 
