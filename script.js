@@ -362,6 +362,17 @@ const solutions = [
         tags: ["UI", "라이브러리", "디자인", "웹개발"],
         status: "active",
         link: "https://jaiwshim-project.github.io/03-2-Util_Showcase/"
+    },
+    {
+        id: 34,
+        title: "치과 광고콘텐츠 AI (환자메시지)",
+        category: "healthcare",
+        categoryLabel: "헬스케어",
+        icon: "💬",
+        description: "치과 환자 맞춤형 광고 메시지 자동 생성 솔루션. AI가 환자 유형별 최적화된 광고 콘텐츠와 메시지를 생성합니다.",
+        tags: ["AI", "치과", "광고", "환자메시지"],
+        status: "active",
+        link: "https://jaiwshim-project.github.io/29-Ad_Gen_Engine_InOut/index.html"
     }
 ];
 
