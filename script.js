@@ -9,7 +9,6 @@ const solutions = [
         description: "AI 기반 문해력 향상 솔루션. 학생들의 읽기 능력과 독해력을 체계적으로 분석하고 맞춤형 학습을 제공합니다.",
         tags: ["AI", "문해력", "교육", "학습"],
         status: "active",
-        link: "#"
     },
     {
         id: 2,
@@ -20,7 +19,6 @@ const solutions = [
         description: "선거 캠페인을 위한 AI 기반 분석 및 전략 수립 솔루션. 여론 분석, 타겟팅, 메시지 최적화를 지원합니다.",
         tags: ["AI", "선거", "분석", "전략"],
         status: "active",
-        link: "https://jaiwshim-project.github.io/aielectionlanding-/"
     },
     {
         id: 18,
@@ -31,7 +29,6 @@ const solutions = [
         description: "BJ Attao 크리에이터 플랫폼. 창작 콘텐츠와 엔터테인먼트 경험을 제공합니다.",
         tags: ["크리에이터", "엔터테인먼트", "콘텐츠"],
         status: "active",
-        link: "https://jaiwshim-project.github.io/BJAttao/index.html"
     },
     {
         id: 3,
@@ -42,7 +39,6 @@ const solutions = [
         description: "AI를 활용한 자동 도서 제작 스튜디오. 콘텐츠 생성부터 편집, 디자인까지 원스톱 북 제작 플랫폼입니다.",
         tags: ["AI", "출판", "자동화", "콘텐츠"],
         status: "active",
-        link: "https://jaiwshim-project.github.io/autobook-ai-studio/"
     },
     {
         id: 4,
@@ -53,7 +49,6 @@ const solutions = [
         description: "RQTDW 방법론 기반 AI 트레이닝 솔루션. 체계적인 사고력 훈련과 문제 해결 능력을 향상시킵니다.",
         tags: ["AI", "트레이닝", "사고력", "RQTDW"],
         status: "active",
-        link: "https://jaiwshim-project.github.io/rqtdw_thinking_OS/"
     },
     {
         id: 5,
@@ -64,7 +59,6 @@ const solutions = [
         description: "AI 기반 드로잉 및 시각화 도구. 아이디어를 시각적으로 표현하고 창의적인 작업을 지원합니다.",
         tags: ["AI", "드로잉", "시각화", "창의성"],
         status: "active",
-        link: "https://jaiwshim-project.github.io/ThinkDraw_AI/"
     },
     {
         id: 6,
@@ -75,7 +69,6 @@ const solutions = [
         description: "텍스트를 입력하면 자동으로 비디오를 생성하는 AI 솔루션. 마케팅, 교육 콘텐츠 제작에 활용됩니다.",
         tags: ["AI", "비디오", "자동생성", "콘텐츠"],
         status: "development",
-        link: "#"
     },
     {
         id: 7,
@@ -86,7 +79,6 @@ const solutions = [
         description: "치과 병원을 위한 AI 상담 솔루션. 환자 상담, 치료 안내, 예약 관리를 AI가 지원합니다.",
         tags: ["AI", "치과", "상담", "AI톡"],
         status: "active",
-        link: "https://aitalker.co.kr/book008"
     },
     {
         id: 8,
@@ -97,7 +89,6 @@ const solutions = [
         description: "치과 병원 맞춤형 광고 콘텐츠 자동 생성 플랫폼. SNS, 블로그, 동영상 콘텐츠를 손쉽게 제작합니다.",
         tags: ["AI", "치과", "광고", "마케팅"],
         status: "active",
-        link: "https://jaiwshim-project.github.io/3stepdentalad/index.html"
     },
     {
         id: 9,
@@ -108,7 +99,6 @@ const solutions = [
         description: "치과 병원 환자 상담을 위한 AI 튜터. 치료 설명, 비용 안내, 환자 교육을 지원합니다.",
         tags: ["AI", "치과", "상담", "튜터"],
         status: "active",
-        link: "https://aitalker.co.kr/biz018"
     },
     {
         id: 10,
@@ -119,7 +109,6 @@ const solutions = [
         description: "AI 튜터링 플랫폼. 학생 개인별 학습 수준에 맞는 1:1 맞춤형 교육을 제공합니다.",
         tags: ["AI", "튜터", "맞춤학습", "교육"],
         status: "active",
-        link: "https://jaiwshim-project.github.io/aitutorhub/"
     },
     {
         id: 11,
@@ -130,7 +119,6 @@ const solutions = [
         description: "미래 역량 개발을 위한 AI 기반 학습 연구소. 창의성, 문제해결력, 협업 능력을 체계적으로 키웁니다.",
         tags: ["AI", "미래역량", "연구", "개발"],
         status: "active",
-        link: "https://jaiwshim-project.github.io/future_competency_ai_lab/"
     },
     {
         id: 12,
@@ -141,7 +129,6 @@ const solutions = [
         description: "AI 기반 영업 지원 솔루션. 고객 분석, 영업 전략 수립, 성과 추적을 통해 매출 증대를 도와줍니다.",
         tags: ["AI", "영업", "CRM", "분석"],
         status: "active",
-        link: "https://jaiwshim-project.github.io/sales_spark/"
     },
     {
         id: 13,
@@ -152,7 +139,6 @@ const solutions = [
         description: "치과 전문인력 교육 플랫폼. AI 기반 시뮬레이션과 맞춤형 커리큘럼으로 전문성을 향상시킵니다.",
         tags: ["AI", "치과", "교육", "아카데미"],
         status: "active",
-        link: "https://jaiwshim-project.github.io/dental_academy/"
     },
     {
         id: 14,
@@ -163,7 +149,6 @@ const solutions = [
         description: "삼국지 세계관 기반 AI 인터랙티브 콘텐츠. 스토리 생성, 캐릭터 대화 등 몰입형 경험을 제공합니다.",
         tags: ["AI", "삼국지", "게임", "스토리"],
         status: "development",
-        link: "#"
     },
     {
         id: 15,
@@ -174,7 +159,6 @@ const solutions = [
         description: "수제맥주 브랜드 홈페이지. 바이젠 수제맥주의 다양한 제품과 브랜드 스토리를 소개합니다.",
         tags: ["맥주", "F&B", "브랜드", "홈페이지"],
         status: "active",
-        link: "https://jaiwshim-project.github.io/weisenbeer/"
     },
     {
         id: 16,
@@ -185,7 +169,6 @@ const solutions = [
         description: "AI 기반 비즈니스 모델 및 운영 최적화 솔루션. 기업 운영 효율화와 AI 전략 수립을 지원합니다.",
         tags: ["AI", "비즈니스", "운영", "전략"],
         status: "active",
-        link: "https://jaiwshim-project.github.io/OPSAIBM/index.html"
     },
     {
         id: 17,
@@ -196,7 +179,6 @@ const solutions = [
         description: "정창덕 총장과의 AI 대화 솔루션. 교육 철학과 인사이트를 AI를 통해 경험할 수 있습니다.",
         tags: ["AI", "교육", "AI톡", "대화"],
         status: "active",
-        link: "https://aitalker.co.kr/edu007/1618"
     },
     {
         id: 19,
@@ -207,7 +189,6 @@ const solutions = [
         description: "화이트서울치과 토탈 플랫폼. 치과 서비스 소개, 예약, 상담 등 원스톱 치과 솔루션을 제공합니다.",
         tags: ["치과", "의료", "플랫폼", "상담"],
         status: "active",
-        link: "https://jaiwshim-project.github.io/dental_platform/index.html"
     },
     {
         id: 20,
@@ -218,7 +199,6 @@ const solutions = [
         description: "미소미 치과 솔루션. 환자 친화적인 치과 서비스와 스마일 케어를 제공합니다.",
         tags: ["치과", "미소", "케어", "서비스"],
         status: "active",
-        link: "https://jaiwshim-project.github.io/misomi/index.html"
     },
     {
         id: 21,
@@ -229,7 +209,6 @@ const solutions = [
         description: "치과 원장 및 병원 운영 상황 파악을 위한 설문조사 솔루션. 병원 경영 개선에 활용됩니다.",
         tags: ["치과", "설문조사", "원장", "병원경영"],
         status: "active",
-        link: "https://jaiwshim-project.github.io/dental_survey/"
     },
     {
         id: 22,
@@ -240,7 +219,6 @@ const solutions = [
         description: "리젠메드 의료 컨설팅 서비스. 의료 기관 운영 및 경영 컨설팅을 제공합니다.",
         tags: ["의료", "컨설팅", "병원경영", "헬스케어"],
         status: "active",
-        link: "https://jaiwshim-project.github.io/mediconsulting/"
     },
     {
         id: 23,
@@ -251,7 +229,6 @@ const solutions = [
         description: "치과 전문 교육 아카데미. 맞춤형 학습 과정을 통해 치과 인력의 역량을 강화합니다.",
         tags: ["치과", "교육", "아카데미", "학습"],
         status: "active",
-        link: "https://jaiwshim-project.github.io/11dentalacademy/user-select.html"
     },
     {
         id: 24,
@@ -262,7 +239,6 @@ const solutions = [
         description: "치과 개원 성공을 위한 5단계 통합 운영 시스템. 전략, 팀빌딩, 환자경험, 마케팅, 고객관리를 체계적으로 설계합니다.",
         tags: ["치과", "개원", "경영", "로드맵"],
         status: "active",
-        link: "https://jaiwshim-project.github.io/14_openbuildup/"
     },
     {
         id: 25,
@@ -273,7 +249,6 @@ const solutions = [
         description: "대전-옥천 폐터널을 활용한 스마트팜, 수제맥주 양조, AI 갤러리 복합 사업 계획. 사회적 가치와 경제적 효과를 동시에 추구합니다.",
         tags: ["사업계획", "스마트팜", "사회적기업", "터널"],
         status: "active",
-        link: "https://jaiwshim-project.github.io/21-Tunnel-Business-Plan/"
     },
     {
         id: 26,
@@ -284,7 +259,6 @@ const solutions = [
         description: "Claude Code, Supabase, Vercel, GitHub, VS Code 통합 개발 매뉴얼. AI 기반 개발 환경 구축과 실전 워크플로우를 체계적으로 안내합니다.",
         tags: ["Claude", "Supabase", "Vercel", "개발매뉴얼"],
         status: "active",
-        link: "https://jaiwshim-project.github.io/41ClaudeManual/#home"
     },
     {
         id: 27,
@@ -295,7 +269,6 @@ const solutions = [
         description: "AI 기반 치과 프랜차이즈 사업계획서. AI 환자상담 아카데미, 마케팅 자동화, QLRCQ 상담 매뉴얼 등 데이터 중심 운영 전략을 제공합니다.",
         tags: ["AI", "치과", "프랜차이즈", "헬스케어"],
         status: "active",
-        link: "https://jaiwshim-project.github.io/15-dental_franchise/"
     },
     {
         id: 28,
@@ -306,7 +279,6 @@ const solutions = [
         description: "스타트업 검색 및 랭킹 플랫폼. 유망 스타트업을 발굴하고 분석하여 투자 및 협업 기회를 제공합니다.",
         tags: ["스타트업", "랭킹", "투자", "분석"],
         status: "active",
-        link: "https://jaiwshim-project.github.io/32-StartupFinder/#ranking"
     },
     {
         id: 29,
@@ -317,7 +289,6 @@ const solutions = [
         description: "AI 기반 요리 레시피 플랫폼. 어머니의 손맛을 담은 다양한 레시피를 AI가 추천하고 안내합니다.",
         tags: ["요리", "레시피", "AI", "음식"],
         status: "active",
-        link: "https://jaiwshim-project.github.io/41-Mother-Cooks-Recipe/"
     },
     {
         id: 30,
@@ -328,7 +299,6 @@ const solutions = [
         description: "치과 방문 관리 및 케어 로드맵 솔루션. 환자의 치과 방문 일정과 치료 계획을 체계적으로 관리합니다.",
         tags: ["치과", "방문케어", "로드맵", "환자관리"],
         status: "active",
-        link: "https://jaiwshim-project.github.io/27-Dental-Visit-Care/roadmap.html"
     },
     {
         id: 31,
@@ -339,7 +309,6 @@ const solutions = [
         description: "치과위생사협회를 위한 AI 기반 조직진단 솔루션. 조직 현황을 분석하고 발전 방향을 제시합니다.",
         tags: ["치과위생사", "조직진단", "AI", "협회"],
         status: "active",
-        link: "https://jaiwshim-project.github.io/25-Dental-Diagnosis/"
     },
     {
         id: 32,
@@ -350,7 +319,6 @@ const solutions = [
         description: "병원·기업 M&A 전문 플랫폼. 매각·매수·양도·양수 거래를 통합 관리하며, 가치평가·실사·전문가 매칭 등 안전한 중개 서비스를 제공합니다.",
         tags: ["M&A", "매수매각", "병원", "기업거래"],
         status: "active",
-        link: "https://jaiwshim-project.github.io/33-M-A_BuySell/"
     },
     {
         id: 33,
@@ -361,7 +329,6 @@ const solutions = [
         description: "프리미엄 UI 라이브러리 허브. CSS 라이브러리, 아이콘셋, 디자인 시스템, 웹폰트, 마이크로 인터랙션, 데이터 시각화 등 웹 개발 리소스를 큐레이션합니다.",
         tags: ["UI", "라이브러리", "디자인", "웹개발"],
         status: "active",
-        link: "https://jaiwshim-project.github.io/03-2-Util_Showcase/"
     },
     {
         id: 34,
@@ -372,7 +339,6 @@ const solutions = [
         description: "치과 환자 맞춤형 광고 메시지 자동 생성 솔루션. AI가 환자 유형별 최적화된 광고 콘텐츠와 메시지를 생성합니다.",
         tags: ["AI", "치과", "광고", "환자메시지"],
         status: "active",
-        link: "https://jaiwshim-project.github.io/29-Ad_Gen_Engine_InOut/index.html"
     }
 ];
 
